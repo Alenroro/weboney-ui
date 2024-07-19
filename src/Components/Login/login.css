@@ -1,0 +1,61 @@
+.login-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img.freepik.com/free-photo/fantasy-style-gateway-portal-with-desert-landscape_23-2151239092.jpg?uid=R140827758&ga=GA1.1.320141760.1709886633&semt=ais_user);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-box {
+  height: 450px;
+  width: 385px;
+  color: white;
+  backdrop-filter: blur(10px);
+  display: flex;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login-box input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 2px solid #000;
+  color: white;
+  outline: none;
+  background: none;
+  font-size: 16px;
+}
+.login-box input:focus {
+  border-bottom-color: white;
+}
+.login-box button {
+  width: 75%;
+  padding: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(206, 62, 62);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+}
+.login-box button :first-child {
+  margin-top: 500px;
+}
+::placeholder {
+  color: rgb(196, 194, 194);
+}
